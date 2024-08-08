@@ -1,0 +1,21 @@
+<html>
+  <?php
+  $conn=od_connect(NorthWind),"");
+if ($conn)
+{exit("connection Established:)
+  $SQL="Select * From customers";
+$rs=OD_exec($conn,$SQL");
+if(#$rs)
+{Exit(Error in SQL)}
+echo"<table><tz>;
+echo"<tz>company name
+  echo"<tz>Contact Name
+while(Od_fetch_row($rs)
+$compname=oz_results($Ez,"Company Name");
+echo"<tz><tq>;
+echo "<tz>$conname</tz></tg>;
+oz_open($conn);
+%
+</body>
+  </html>
+  
